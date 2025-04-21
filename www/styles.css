@@ -1,0 +1,80 @@
+2. styles.css
+
+/* RNAlytics/www/styles.css */
+/* Custom styles for the Shiny app */
+
+body {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+  background-color: #f7f1e1; /* light peach background */
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  background-color: #f7f1e1; /* light peach */
+  transition: all 0.5s ease;
+  padding: 20px;
+}
+
+.box {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5dade2;
+  border-color: #5dade2;
+  transform: translateY(-2px);
+}
+
+.sidebar-menu {
+  background-color: #ecf0f1;
+  font-size: 16px;
+  color: #000000;
+  padding: 10px;
+  border-right: 1px solid #dfe6e9;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+.tab-pane {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes helixTwist {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg) scale(0.8);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotateY(45deg) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+  }
+}

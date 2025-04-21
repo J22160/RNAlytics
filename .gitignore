@@ -1,0 +1,58 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Environment files
+.Renviron
+.env
+
+# Logs and temp files
+*.log
+*.aux
+*.out
+*.toc
+*.tmp
+
+# Shiny files
+*.pid
+rsconnect/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data and results
+data/
+results/
+output/
+*.csv
+*.tsv
+*.xlsx
+*.rds
+
+# Dependency management
+packrat/
+renv/library/
+renv/python/
+renv/staging/
+
+# Quarto and R Markdown
+*.nb.html
+*.utf8.md
+*.knit.md
+cache/
+*_cache/
+*.pdf
+*.docx
+
+# Other
+*.tar.gz
+*.zip
+*.bak
